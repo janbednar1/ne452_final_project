@@ -10,7 +10,7 @@ This project conduts a molecular dynamics simulation of a box of water in order 
 - MDTraj
 
 ## Before you begin
-The default parameters for this simulation make it very computationally expensive due to a large range of temperatures and a fairly large number of particles being simulated. As such, it will take a LONG time to run on most machines (INSERT TIME ESTIMATE HERE).
+The default parameters for this simulation make it very computationally expensive due to a large range of temperatures and a fairly large number of particles being simulated. As such, it will take a LONG time to run on most machines.
 
 If you wish to avoid this, consider the following changes:
 - Reduce `<number>` in `range(<number>)` and increase `step_size` located in `waterBox/waterBox.py`, `histos/genPairDistancesWater.py`, `gr_compute/oo_gr_compute.py`, and `gr_compute/oh_gr_compute.py`
