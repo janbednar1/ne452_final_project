@@ -12,7 +12,7 @@ temperature = 0
 steps = 10000
 skipSteps = 10
 equilSteps = 100
-Box_edge=5.0*unit.nanometers
+Box_edge=3.0*unit.nanometers
 step_size = 10
 
 # Built-in water box system with periodic boundary conditions
