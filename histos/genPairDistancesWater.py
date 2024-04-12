@@ -2,7 +2,7 @@ import numpy as np
 import mdtraj as md
 
 # Initializing independent parameters
-nbins=1000
+nbins=300
 rmin=0.1
 step_size = 10
 
@@ -69,4 +69,13 @@ for i in range(101):
     OH_file=open('{}k_OH_histo'.format(k),'w')
     for i in range(nbins):
             OH_file.write(str(rmin+i*dr)+' '+str(OH_histo[i])+'\n')
+
+    # Close file and wipe any potentially stored data
     OH_file.close()
+    input_data = []
+    OO_pairs = []
+    OH_pairs = []
+    OO_distances = []
+    OH_distances = []
+    OO_histo= []
+    OH_histo= []

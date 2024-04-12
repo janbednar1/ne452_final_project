@@ -9,10 +9,10 @@ from sys import stdout
 # Simulation will take a LONG time
 # Reduce if needed
 temperature = 0
-steps = 10000
+steps = 2500
 skipSteps = 10
 equilSteps = 100
-Box_edge=3.0*unit.nanometers
+Box_edge=2*unit.nanometers
 step_size = 10
 
 # Built-in water box system with periodic boundary conditions

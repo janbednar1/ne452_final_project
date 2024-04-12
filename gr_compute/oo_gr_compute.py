@@ -20,7 +20,7 @@ for i in range(101):
 
   plt.title('g(r) Data for OO at {}K'.format(k), fontsize = 20) 
   plt.legend() 
-  plt.savefig('../img/{}k_OO_gr.png'.format(i))
+  plt.savefig('../img/{}k_OO_gr.png'.format(k))
 
   # Close the plot and empty the data arrays
   plt.close()
